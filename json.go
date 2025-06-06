@@ -5,8 +5,9 @@
 package websocket
 
 import (
-	"encoding/json"
 	"io"
+
+	"github.com/goccy/go-json"
 )
 
 // WriteJSON writes the JSON encoding of v as a message.

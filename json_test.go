@@ -6,10 +6,11 @@ package websocket
 
 import (
 	"bytes"
-	"encoding/json"
 	"io"
 	"reflect"
 	"testing"
+
+	"github.com/goccy/go-json"
 )
 
 func TestJSON(t *testing.T) {
